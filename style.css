@@ -1,0 +1,52 @@
+body {
+    font-family: Russo One;
+  }
+  body {
+    user-select: none;
+    background-color: lighten(grey, 5%);
+  }
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .inner-container {
+    outline: 5px solid orange;
+    position: relative;
+    width: 660px;
+    text-align: center;
+    background-color: lighten(grey, 20%);
+  }
+.pad-bank {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    margin: 100px;
+}
+.drum-pad {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding-top: 35px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.inner-select {
+    width: 23px;
+    height: 19px;
+    background: blue;
+    border: 1px solid black;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  #display {
+    width: 200px;
+    background-color: gray;
+    margin: 15px auto;
+    padding: 15px;
+    box-sizing: border-box;
+  }
